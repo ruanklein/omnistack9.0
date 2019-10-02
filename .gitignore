@@ -1,0 +1,6 @@
+backend/.env
+backend/node_modules
+backend/uploads/*.jpeg
+backend/uploads/*.jpg
+backend/uploads/*.png
+backend/uploads/*.gif
