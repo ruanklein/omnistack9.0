@@ -2,7 +2,7 @@
 
 A project developed for the [Rocketseat](https://rocketseat.com.br/) course.
 
-## Aircnc
+## AirCnC
 
 A clone of Airbnb application.
 
@@ -11,3 +11,4 @@ The idea is it's learning JavaScript/NodeJS stack libraries, like React for fron
 ### Modules
 
 * [Backend Solution](backend/README.md)
+* [Frontend Solution](frontend/README.md)
