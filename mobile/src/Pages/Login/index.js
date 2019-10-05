@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { 
     KeyboardAvoidingView,
+    Platform,
     AsyncStorage,
     Image,
     Text,
@@ -38,7 +39,7 @@ export default ({ navigation }) => {
     }
 
     return (
-        <KeyboardAvoidingView behavior="padding" style={styles.container}>
+        <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : null} style={styles.container}>
             <Image source={logo} />
 
             <KeyboardAvoidingView style={styles.form}>
