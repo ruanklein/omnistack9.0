@@ -10,6 +10,7 @@ import {
 import { withNavigation } from 'react-navigation';
 
 import api from '../../Services/Api';
+import env from '../../../env.json';
 
 import styles from './styles';
 
